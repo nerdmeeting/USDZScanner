@@ -14,7 +14,7 @@ extension CaptureOverlayView {
     static let logger = Logger(subsystem: GuidedCaptureSampleApp.subsystem,
                                category: "CaptureOverlayView+Buttons")
 
-    @available(iOS 17.0, *)
+    @available(iOS 16.6, *)
     @MainActor
     struct CaptureButton: View {
         var session: ObjectCaptureSession
@@ -60,7 +60,7 @@ extension CaptureOverlayView {
         }
     }
 
-    @available(iOS 17.0, *)
+    @available(iOS 16.6, *)
     struct ResetBoundingBoxButton: View {
         var session: ObjectCaptureSession
 
@@ -84,7 +84,7 @@ extension CaptureOverlayView {
         }
     }
 
-    @available(iOS 17.0, *)
+    @available(iOS 16.6, *)
     struct NextButton: View {
         @EnvironmentObject var appModel: AppDataModel
 
@@ -100,7 +100,7 @@ extension CaptureOverlayView {
         }
     }
     
-    @available(iOS 17.0, *)
+    @available(iOS 16.6, *)
     struct CloseButton: View {
         @Environment(\.dismiss) var dismiss
 
@@ -114,7 +114,7 @@ extension CaptureOverlayView {
         }
     }
 
-    @available(iOS 17.0, *)
+    @available(iOS 16.6, *)
     struct ManualShotButton: View {
         var session: ObjectCaptureSession
 
@@ -153,7 +153,7 @@ extension CaptureOverlayView {
             context: UIViewControllerRepresentableContext<DocumentBrowser>) {}
     }
 
-    @available(iOS 17.0, *)
+    @available(iOS 16.6, *)
     struct FilesButton: View {
         @EnvironmentObject var appModel: AppDataModel
         @State private var showDocumentBrowser = false
@@ -206,7 +206,7 @@ extension CaptureOverlayView {
         }
     }
 
-    @available(iOS 17.0, *)
+    @available(iOS 16.6, *)
     struct CancelButton: View {
         @EnvironmentObject var appModel: AppDataModel
 
@@ -221,7 +221,7 @@ extension CaptureOverlayView {
         }
     }
 
-    @available(iOS 17.0, *)
+    @available(iOS 16.6, *)
     struct NumOfImagesButton: View {
         var session: ObjectCaptureSession
 

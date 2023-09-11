@@ -9,7 +9,7 @@ import RealityKit
 import SwiftUI
 import os
 
-@available(iOS 17.0, *)
+@available(iOS 16.6, *)
 /// View that creates the buttons on the review screen depending on
 /// `currentState` in `onboardingStateMachine`.
 struct OnboardingButtonView: View {
@@ -117,7 +117,7 @@ struct OnboardingButtonView: View {
     }
 }
 
-@available(iOS 17.0, *)
+@available(iOS 16.6, *)
 private struct CreateButton: View {
     static let logger = Logger(subsystem: GuidedCaptureSampleApp.subsystem,
                                category: "OnboardingButtonView")
@@ -176,7 +176,7 @@ extension View {
     }
 }
 
-@available(iOS 17.0, *)
+@available(iOS 16.6, *)
 private struct CancelButton: View {
     static let logger = Logger(subsystem: GuidedCaptureSampleApp.subsystem,
                                category: "CancelButton")

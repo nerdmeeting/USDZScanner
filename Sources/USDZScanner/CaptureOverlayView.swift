@@ -9,7 +9,7 @@ import Foundation
 import RealityKit
 import SwiftUI
 
-@available(iOS 17.0, *)
+@available(iOS 16.6, *)
 struct CaptureOverlayView: View {
     @EnvironmentObject var appModel: AppDataModel
     var session: ObjectCaptureSession
@@ -157,7 +157,7 @@ struct CaptureOverlayView: View {
     }
 }
 
-@available(iOS 17.0, *)
+@available(iOS 16.6, *)
 @MainActor
 private struct BoundingBoxGuidanceView: View {
     var session: ObjectCaptureSession

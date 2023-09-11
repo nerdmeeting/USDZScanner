@@ -11,7 +11,7 @@ import SwiftUI
 
 /// The view that either shows the point cloud or plays the guidance tutorials on the review screens.
 /// This depends on `currentState` in `onboardingStateMachine`.
-@available(iOS 17.0, *)
+@available(iOS 16.6, *)
 struct OnboardingTutorialView: View {
     @EnvironmentObject var appModel: AppDataModel
     var session: ObjectCaptureSession

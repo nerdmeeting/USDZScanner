@@ -9,7 +9,7 @@ import RealityKit
 import SwiftUI
 import os
 
-@available(iOS 17.0, *)
+@available(iOS 16.6, *)
 /// The root of the SwiftUI view graph.
 public struct USDZScanner: View {
     static let logger = Logger(subsystem: GuidedCaptureSampleApp.subsystem,
@@ -85,7 +85,7 @@ private struct CircularProgressView: View {
 }
 
 #if DEBUG
-@available(iOS 17.0, *)
+@available(iOS 16.6, *)
 struct USDZScanner_Previews: PreviewProvider {
     static var previews: some View {
         USDZScanner() { url in }
