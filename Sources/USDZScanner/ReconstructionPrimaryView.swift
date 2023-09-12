@@ -10,7 +10,7 @@ import RealityKit
 import SwiftUI
 import os
 
-@available(iOS 17.0, *)
+@available(iOS 16.6, *)
 struct ReconstructionPrimaryView: View {
     @EnvironmentObject var appModel: AppDataModel
     let outputFile: URL
@@ -40,7 +40,7 @@ struct ReconstructionPrimaryView: View {
     }
 }
 
-@available(iOS 17.0, *)
+@available(iOS 16.6, *)
 struct ReconstructionProgressView: View {
     static let logger = Logger(subsystem: GuidedCaptureSampleApp.subsystem,
                                category: "ReconstructionProgressView")

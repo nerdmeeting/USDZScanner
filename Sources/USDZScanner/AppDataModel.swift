@@ -11,7 +11,7 @@ import SwiftUI
 import os
 
 @MainActor
-@available(iOS 17.0, *)
+@available(iOS 16.6, *)
 class AppDataModel: ObservableObject, Identifiable {
     let logger = Logger(subsystem: GuidedCaptureSampleApp.subsystem,
                                 category: "AppDataModel")

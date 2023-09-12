@@ -9,7 +9,7 @@ import Foundation
 import RealityKit
 import SwiftUI
 
-@available(iOS 17.0, *)
+@available(iOS 16.6, *)
 /// Keeps the UI string conversions all in one place for simplicity
 final class FeedbackMessages {
     /// Returns the human readable string to display for the given feedback.

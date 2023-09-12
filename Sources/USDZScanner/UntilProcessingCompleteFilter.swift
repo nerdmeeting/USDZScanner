@@ -8,7 +8,7 @@ An asynchronous sequence filter this sample applies to the photogrammetry sessio
 import Foundation
 import RealityKit
 
-@available(iOS 17.0, *)
+@available(iOS 16.6, *)
 struct UntilProcessingCompleteFilter<Base>: AsyncSequence,
                                             AsyncIteratorProtocol where Base: AsyncSequence, Base.Element == PhotogrammetrySession.Output {
     func makeAsyncIterator() -> UntilProcessingCompleteFilter {

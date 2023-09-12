@@ -9,7 +9,7 @@ import Foundation
 import RealityKit
 import SwiftUI
 
-@available(iOS 17.0, *)
+@available(iOS 16.6, *)
 /// View that shows the guidance text and tutorials on the review screen.
 struct OnboardingView: View {
     @EnvironmentObject var appModel: AppDataModel

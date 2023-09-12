@@ -7,13 +7,13 @@ This is just a SPM wrapper based on the original [Apple Object Capture Sample Co
 ## Requirements
 
 - iPhone or iPad with a LiDAR Scanner and an A14 Bionic chip or later
-- iOS or iPadOS 17 or later
+- iOS or iPadOS 16.6 or later
 
 ## Installation
 
 ### Swift Package Manager
 - File > Swift Packages > Add Package Dependency
-- Add https://github.com/alfianlosari/USDZScanner.git
+- Add https://github.com/nerdmeeting/USDZScanner
 
 You must add `Privacy - Camera Usage Description` permission in your App Info.plist to use the scanner.  
 
